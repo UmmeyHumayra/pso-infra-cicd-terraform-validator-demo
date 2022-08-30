@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "TFSTATE_BUCKET"
+    bucket  = "terraform-vet-mkbucket"
     prefix  = "tf-demo/app1"
   }
 }
